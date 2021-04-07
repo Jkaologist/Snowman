@@ -73,6 +73,7 @@ function Snowman(props) {
   return (
       <div className="Snowman">
         <img src={(props.images)[nWrong]} alt={nWrong} />
+        <div> Number Wrong: { nWrong } </div>
         <p className="Snowman-word">{guessedWord()}</p>
         <p>{generateButtons()}</p>
       </div>
